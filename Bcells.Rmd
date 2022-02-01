@@ -257,7 +257,7 @@ class: middle
 --
 
 - **Selection** across natural variation in Notch2 expression?
-  - B cells that receive strong self-antigen:BCR signals up-regulate Notch2 and acquire MZ fate.
+  - Natural variation in Notch2 signalling.
   
 --
 .center[

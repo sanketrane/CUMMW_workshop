@@ -35,7 +35,7 @@ knitr::include_graphics("figures/intro_eco1.png")
 
 ---
 
-## Immune ecology
+## Regulations of clonal diversity
 <hr>
 
 
@@ -115,7 +115,7 @@ knitr::include_graphics("figures/homeostasis_processes.png")
 ---
 <hr>
 
-### Potential mechanisms that may compensate decline in production.
+### Potential mechanisms that may compensate decline in production
 
 - **Quorum sensing**
 > Cells compete for reources that are necessary for their persistence. </br>
@@ -155,7 +155,7 @@ knitr::include_graphics("figures/homeostasis_processes.png")
 
 --
 
-Identifying these rules impacts our understanding of diversity maintenance
+Identifying these rules impacts our understanding of lymphocyte maintenance
 
 
 
@@ -172,7 +172,7 @@ Identifying these rules impacts our understanding of diversity maintenance
 
 --
 
-### &rArr; Does heightened vulnerability to infections and cancer with age stem from accumulation of <span style="color:#9e423c;"> old </span> and potentially <span style="color:#9e423c;"> incompetent </span> cells over time?
+### &rArr; Does heightened vulnerability to infections and cancers with age stem from accumulation of <span style="color:#9e423c;"> old </span> and potentially <span style="color:#9e423c;"> incompetent </span> cells over time?
 
 
 
@@ -184,9 +184,11 @@ background-image: url("figures/inverse_bg.png")
 ## .center[Building unifying models of T and B cell life-histories]
 <hr>
 
-### A single model that explains it all &mdash;  </br> 
+### In tightly knit interative connections with experimental data.  </br> 
 
 --
+
+To explain &mdash;
 
 <h3 style="color:#fcba03; font-size:150%;">
 &#8658; Dynamic establishment in neonates and stability in adults. 

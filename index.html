@@ -3,8 +3,8 @@
   <head>
     <title>Dynamism and Complexity in Immune Ecology</title>
     <meta charset="utf-8" />
+    <meta name="author" content="" />
     <meta name="date" content="2022-02-01" />
-    <script src="libs/header-attrs/header-attrs.js"></script>
     <script src="libs/kePrint/kePrint.js"></script>
     <link href="libs/lightable/lightable.css" rel="stylesheet" />
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
@@ -16,7 +16,6 @@ class: center, middle, inverse, title-slide
 
 # Dynamism and Complexity in Immune Ecology
 ## Undertstanding the rules that govern lymphocyte dynamics across our lifespan
-### 
 ### Sanket Rane
 ### 2022-02-01
 
@@ -32,12 +31,20 @@ class: center, middle
 
 
 
+
+
 count: false
 layout: false
 
 &lt;video autoplay width="100%" height="100%" controls id="my_video"&gt;
     &lt;source src="figures/Presentation1.mp4" type="video/mp4"&gt;
 &lt;/video&gt;
+
+???
+Throughout our life the cells of our imunsystem protect us from the pathogens of multitudinal shapes and forms.
+
+What are the precise rules these cells follow.
+
 ---
 
 ## .center[Peculiar problem]
@@ -65,7 +72,7 @@ background-image: url("figures/inverse_bg.png")
 
 - &lt;h3 style="color:#fcba03; font-size:130%"&gt; Aware of self:  &lt;/h3&gt;
   
-  - Each Golem must Recognize our own.
+  - Each Golem must recognize our own.
   
   - Any that pose threat to earth inhabitants are removed instantly. 
 
@@ -100,13 +107,12 @@ background-image: url("figures/inverse_bg.png")
 
 - Repertoire of clones that identify proteins and lipids  &amp;rarr; collectively called as **antigens**, that are expressed on pathogens and tumors.
 
---
+
 
 - Each clone carries a unique receptor.
   &gt; T cells express T cell receptor (TCR). &lt;/br&gt;
   &gt; B cells express antibody molecules (Ig).
 
---
 
 - T and B cells that havent encountered antigen yet &amp;rarr;  **Naive** cells.
   &gt; Continuously circulate within lymphatic and blood circulation in search of "specific antigens".
@@ -130,7 +136,7 @@ background-image: url("figures/inverse_bg.png")
 
 .shadedbox2[
 
-&amp;#x1F4A1; Interesting insight
+&amp;#x1F4A1; **Interesting insight**
 
 Over 95% newly made T cells and B cells are removed from  during their development by the processes of positive and negative selection.
 
@@ -207,7 +213,7 @@ Compartments shaped by constant influx of new specificities, loss of old ones…
 
 ---
 
-## Immune ecology
+## Regulations of clonal diversity
 &lt;hr&gt;
 
 
@@ -284,7 +290,7 @@ Can we quantify all of these processes to understand how the repertoire is estab
 ---
 &lt;hr&gt;
 
-### Potential mechanisms that may compensate decline in production.
+### Potential mechanisms that may compensate decline in production
 
 - **Quorum sensing**
 &gt; Cells compete for reources that are necessary for their persistence. &lt;/br&gt;
@@ -324,7 +330,7 @@ Can we quantify all of these processes to understand how the repertoire is estab
 
 --
 
-Identifying these rules impacts our understanding of diversity maintenance
+Identifying these rules impacts our understanding of lymphocyte maintenance
 
 
 
@@ -341,7 +347,7 @@ Identifying these rules impacts our understanding of diversity maintenance
 
 --
 
-### &amp;rArr; Does heightened vulnerability to infections and cancer with age stem from accumulation of &lt;span style="color:#9e423c;"&gt; old &lt;/span&gt; and potentially &lt;span style="color:#9e423c;"&gt; incompetent &lt;/span&gt; cells over time?
+### &amp;rArr; Does heightened vulnerability to infections and cancers with age stem from accumulation of &lt;span style="color:#9e423c;"&gt; old &lt;/span&gt; and potentially &lt;span style="color:#9e423c;"&gt; incompetent &lt;/span&gt; cells over time?
 
 
 
@@ -353,9 +359,11 @@ background-image: url("figures/inverse_bg.png")
 ## .center[Building unifying models of T and B cell life-histories]
 &lt;hr&gt;
 
-### A single model that explains it all &amp;mdash;  &lt;/br&gt; 
+### In tightly knit interative connections with experimental data.  &lt;/br&gt; 
 
 --
+
+To explain &amp;mdash;
 
 &lt;h3 style="color:#fcba03; font-size:150%;"&gt;
 &amp;#8658; Dynamic establishment in neonates and stability in adults. 
@@ -424,6 +432,12 @@ class: center;
 
 ### Tracking  &lt;span style="color:#9e423c;"&gt;invasion&lt;/span&gt; of donor cells into the host compartments over time.
 
+
+.right[
+&lt;p style="font-size:90%; color:#595959;"&gt;
+Seddon lab UCL London
+]
+
 ???
 We have devised a novel exp strategy to temporally map cellular replacement in mice using this drug called busulfan.
 
@@ -456,7 +470,6 @@ then in these busulfan treated mice we transfer BM from congenic donors and trac
   
 --
 
-  
 4. **Marginal Zone B cells **
 
   - "Gatekeepers of the immune system" &amp;rarr; eliminate blood-borne pathogens.
@@ -517,7 +530,7 @@ $$
 $$
 
 $$
-\dot{N} = \phi \, P(t) + \psi \, M 
+\dot{N} = \phi \, P(t) + \psi \, N 
 $$
 &lt;p style="font-size:90%; color:#595959"&gt; 
 P: upstream precursor population.
@@ -1012,10 +1025,14 @@ class: center, middle
 
 &lt;br&gt;
 
+A simple out-of-sample prediction method reveled a very profound principle of naive CD8 T cell dynamics.
+
+
 &lt;hr&gt;
 
-??? 
-Simple out of sample prediction method revelaed a very profound principle of naive cD8 t cell dynamics -- 
+
+
+???
 
 ---
 
@@ -1461,9 +1478,6 @@ class: center, middle
 # Thanks!
 
 Slides were created in `html5` using [remark.js](https://remarkjs.com) and R packages [**knitr**](http://yihui.name/knitr) and [**xaringan**](https://github.com/yihui/xaringan).
-
-
-
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

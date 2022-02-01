@@ -15,6 +15,12 @@ knitr::include_graphics("figures/BUCHI_diag.jpg")
 
 ### Tracking  <span style="color:#9e423c;">invasion</span> of donor cells into the host compartments over time.
 
+
+.right[
+<p style="font-size:90%; color:#595959;">
+Seddon lab UCL London
+]
+
 ???
 We have devised a novel exp strategy to temporally map cellular replacement in mice using this drug called busulfan.
 
@@ -47,7 +53,6 @@ then in these busulfan treated mice we transfer BM from congenic donors and trac
   
 --
 
-  
 4. **Marginal Zone B cells **
 
   - "Gatekeepers of the immune system" &rarr; eliminate blood-borne pathogens.
@@ -114,7 +119,7 @@ $$
 $$
 
 $$
-\dot{N} = \phi \, P(t) + \psi \, M 
+\dot{N} = \phi \, P(t) + \psi \, N 
 $$
 <p style="font-size:90%; color:#595959"> 
 P: upstream precursor population.
@@ -654,10 +659,14 @@ knitr::include_graphics("figures/Hostage_ASM.png")
 
 <br>
 
+A simple out-of-sample prediction method reveled a very profound principle of naive CD8 T cell dynamics.
+
+
 <hr>
 
-??? 
-Simple out of sample prediction method revelaed a very profound principle of naive cD8 t cell dynamics -- 
+
+
+???
 
 ---
 

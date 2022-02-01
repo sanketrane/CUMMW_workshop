@@ -4,6 +4,12 @@ layout: false
 <video autoplay width="100%" height="100%" controls id="my_video">
     <source src="figures/Presentation1.mp4" type="video/mp4">
 </video>
+
+???
+Throughout our life the cells of our imunsystem protect us from the pathogens of multitudinal shapes and forms.
+
+What are the precise rules these cells follow.
+
 ---
 
 ## .center[Peculiar problem]
@@ -34,7 +40,7 @@ background-image: url("figures/inverse_bg.png")
 
 - <h3 style="color:#fcba03; font-size:130%"> Aware of self:  </h3>
   
-  - Each Golem must Recognize our own.
+  - Each Golem must recognize our own.
   
   - Any that pose threat to earth inhabitants are removed instantly. 
 
@@ -72,13 +78,12 @@ knitr::include_graphics("figures/intro_eco.png")
 
 - Repertoire of clones that identify proteins and lipids  &rarr; collectively called as **antigens**, that are expressed on pathogens and tumors.
 
---
+
 
 - Each clone carries a unique receptor.
   > T cells express T cell receptor (TCR). </br>
   > B cells express antibody molecules (Ig).
 
---
 
 - T and B cells that havent encountered antigen yet &rarr;  **Naive** cells.
   > Continuously circulate within lymphatic and blood circulation in search of "specific antigens".
@@ -102,7 +107,7 @@ knitr::include_graphics("figures/intro_eco.png")
 
 .shadedbox2[
 
-&#x1F4A1; Interesting insight
+&#x1F4A1; **Interesting insight**
 
 Over 95% newly made T cells and B cells are removed from  during their development by the processes of positive and negative selection.
 
