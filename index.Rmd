@@ -1,0 +1,64 @@
+---
+title: Dynamism and Complexity in Immune Ecology
+subtitle: Undertstanding the rules that govern lymphocyte dynamics across our lifespan
+author: 
+institute: Sanket Rane
+date: "`r Sys.Date()`"
+
+output:
+  xaringan::moon_reader:
+    #chakra: libs/remark-latest.min.js
+    css: [xaringan-themer.css, xaringan-custom.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      #slideNumberFormat: "%current%"
+---
+class: center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, 
+  comment = NA, dpi = 300,
+  fig.align = "center", out.width = "100%", cache = FALSE)
+library(tidyverse)
+library(knitr)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(primary_color = "#035AA6", secondary_color = "#006789",
+          header_font_google = google_font("Yanone Kaffeesatz"),
+          text_font_google   = google_font("IBM PLex Sans", "300", "300i"),
+          code_font_google   = google_font("Fira Mono"))
+```
+
+
+
+
+```{r child='intro.Rmd'}
+```
+
+---
+
+```{r child='questions.Rmd'}
+```
+
+
+---
+
+
+```{r child='Buchi.Rmd'}
+```
+
+
+
+---
+
+
+```{r child='Bcells.Rmd'}
+```
+
+
